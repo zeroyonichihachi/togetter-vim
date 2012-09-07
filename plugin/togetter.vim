@@ -38,7 +38,7 @@ function! s:match(node)
 endfunction
 
 function! s:sid()
-  return matchstr(expand('<sfile>'), '<SNR>\zs\d\+\ze_SID$')
+  return matchstr(expand('<sfile>'), '<SNR>\zs\d\+\ze_sid$')
 endfun
 
 function! s:togetter_list(arg)
